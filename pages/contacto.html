@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Contacto - CoolturaGrow</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/Montserrat.css">
+    <link rel="stylesheet" href="assets/fonts/simple-line-icons.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.11.1/baguetteBox.min.css">
+    <link rel="stylesheet" href="assets/css/Projects-Grid-Horizontal-images.css">
+    <link rel="stylesheet" href="assets/css/vanilla-zoom.min.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-light navbar-expand-lg fixed-top bg-white clean-navbar" style="width: auto;">
+        <div class="container"><img style="margin-right: 1px;margin-bottom: 2px;width: 160px;"
+                src="assets/img/COOLTURA%20GROW%20FINAL_COOLTURA%20GROW%20300x150%20px.png"><button
+                data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navcol-1"><span
+                    class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navcol-1">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">HOME</a></li>
+                    <li class="nav-item"><a class="nav-link" href="../nosotros.html">NOSOTROS</a></li>
+                    <li class="nav-item"><a class="nav-link" href="../tienda.html">TIENDA</a></li>
+                    <li class="nav-item"><a class="nav-link" href="../blog.html">BLOG</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="../contacto.html">CONTACTO</a></li>
+                    <li class="nav-item"><a class="nav-link" href="../webapp.html">WEBAPP</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <main class="page landing-page">
+        <div class="container">
+            <br><br>
+            <div class="row">
+                <div class="col-md-3 col-xl-3">
+                    <div class="icons-redes">
+                        <a href="https://www.instagram.com/coolturagrow/"><i class="ri-instagram-line"></i></a>
+                        <a href="#"><i class="ri-youtube-line"></i></a>
+                        <a href="https://www.facebook.com/CoolturaGrow"><i class="ri-facebook-box-line"></i></a>
+                    </div>
+                </div>
+                <div class="col-md-5 col-xl-6">
+                    <section id="formulario-contacto">
+                        <!--Formulario de contacto-->
+                        <form class="onda-form">
+
+                            <fieldset>
+                                <legend>Datos Cooltivador</legend>
+                                <label for="nombre">Nombre Completo:</label>
+                                <input type="text" required="" name="nombre">
+                                <br>
+                                <label for="telefono">Ingrese Teléfono:</label>
+                                <input type="tel" required="" tel="telefono">
+                                <br>
+                                <label for="email">Ingrese su Email:</label>
+                                <input type="email" required="" email="email">
+                                <br>
+                                <label for="textocliente">Ingrese su comentario o necesidad:</label>
+                                <textarea name="textocliente" cols="40" rows="10"></textarea>
+                            </fieldset>
+                            <br>
+                            <!--Controles de Seleccion-->
+                            <!--Radio una sola opcion-->
+                            <fieldset>
+                                <legend>¿Que tipo de cultivador eres?</legend>
+                                <br>
+                                <input type="radio" name="tipodecultivador" value="CUD"> Cultivador Urbano Departamento
+                                <br>
+                                <input type="radio" name="tipodecultivador" value="CM"> Cultivador Medicinal
+                                <br>
+                                <input type="radio" name="tipodecultivador" value="CE"> Cultivador de exterior
+                                <br>
+                                <label for="fecha-nacimiento">¿Eres Mayor de Edad?</label>
+                                <input type="number" min="18" required="fecha-nacimiento">
+                                <br>
+                                <!--Checkbox donde pueden elegir mas de una opción-->
+                                <label for="clasificacion">¿Eres cultivador novato?</label>
+                                <input type="checkbox" name="clasificacion">
+                                <br>
+                                <label for="clasificacion">¿Te gustaría aprender a cultivar hortalizas?</label>
+                                <input type="checkbox" name="clasificacion">
+                                <br>
+                                <label for="clasificacion">¿Quieres aprender a cultivar Cannabis medicinal?</label>
+                                <input type="checkbox" name="clasificacion">
+                                <br>
+                                <!--Menu desplegable-->
+                                <label for="Region">¿De que Region eres?</label>
+                                <select name="Region">
+                                    <option value="AP">Region de Arica y Parinacota</option>
+                                    <option value="TA">Region de Tarapaca</option>
+                                    <option value="AN">Region de Antofagasta</option>
+                                    <option value="AT">Region de Atacama</option>
+                                    <option value="CO">Region de Coquimbo </option>
+                                    <option value="VA">Region de Vaparaiso</option>
+                                    <option value="RM">Region Metropolitana</option>
+                                    <option value="LI">Region de OHiggins</option>
+                                    <option value="ML">Region del Maule</option>
+                                    <option value="NB">Region de Nuble</option>
+                                    <option value="BI">Region del BioBio</option>
+                                    <option value="AR">Region de la Araunania</option>
+                                    <option value="LR">Region de Los Rios</option>
+                                    <option value="LL">Region de Los Lagos</option>
+                                    <option value="AI">Region de Aysen</option>
+                                    <option value="MA">Region de Magallanes</option>
+                                </select>
+                            </fieldset>
+                            <br>
+                            <input type="reset" value="Limpia Formulario"><!--Resetea todo el formulario-->
+                            <input type="submit" value="Enviar">
+                        </form>
+                    </section>
+                </div>
+                <div class="col-md-3 col-xl-3">
+
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="footer-copyright">
+            <p>© 2023 CoolturaGrow</p>
+        </div>
+    </footer>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.11.1/baguetteBox.min.js"></script>
+    <script src="assets/js/vanilla-zoom.js"></script>
+    <script src="assets/js/theme.js"></script>
+    <!--Boton instalado previo al orden de contenido y definición de uso footer-->
+    <div class="scroll-down">
+        <a href=""><i class="ri-arrow-down-s-fill"></i></a>
+    </div>
+    <!--JS custom script para llamar-->
+    <script src="../javascript/script.js"></script>
+    <script src="../js/script.js"></script>
+</body>
+
+
+</html>
